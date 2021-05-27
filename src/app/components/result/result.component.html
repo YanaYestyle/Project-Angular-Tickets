@@ -1,0 +1,102 @@
+<app-header></app-header>
+<app-part-for-time-city-weather></app-part-for-time-city-weather> 
+<div class="cont">
+    <div class="container-fluid" id="backgroundMain">
+        <div id="form-main">
+          <div id="form-div">
+            <div id="welcome">
+              <h4 id="forName">{{name}} {{lastName}}, let's check your flight</h4>
+              <table class="table table-borderless" id="forHeadTable">
+                <thead>
+                  <tr>
+                    <th class="tableName">DEPARTURE DATE:</th>
+                    <th class="tableDate">{{dateUserToView}}</th>
+                    <th></th>
+                    <th></th>
+                  </tr>
+                </thead> 
+                <thead>
+                  <tr>
+                    <th class="tableName">ARRIVAL DATE:</th>
+                    <th class="tableDate">{{dateUserToView2}}</th>
+                    <th></th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <thead>
+                  <tr>
+                    <th class="tableName">DEPARTURE CITY:</th>
+                    <th class="tableDate">{{cityDeparture}}</th>
+                    <th></th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <thead>
+                  <tr>
+                    <th class="tableName">ARRIVAL CITY:</th>
+                    <th class="tableDate">{{cityArrived}}</th>
+                    <th></th>
+                    <th></th>
+                  </tr>
+                </thead> 
+                <thead>
+                  <tr>
+                    <th class="tableName">DEPARTURE TIME:</th>
+                    <th class="tableDate">{{departureTime}}</th>
+                    <th></th>
+                    <th></th>
+                  </tr>
+                </thead> 
+                <thead>
+                  <tr>
+                    <th class="tableName">ARRIVAL TIME:</th>
+                    <th class="tableDate">{{arrivalTime}}</th>
+                    <th></th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <thead>
+                  <tr>
+                    <th class="tableName">FLIGHT TIME:</th>
+                    <th class="tableDate">{{arrivalTime}}</th>
+                    <th></th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <thead>
+                  <tr>
+                    <th class="tableName">SEAT:</th>
+                    <th class="tableDate">{{seatOnTheDisplay}} {{sharedSelected}}</th>
+                    <th></th>
+                    <th></th>
+                  </tr>
+                </thead> 
+                <thead>
+                  <tr>
+                    <th class="tableName">PRISE:</th>
+                    <th class="tableDate">{{sharedPrise1ToResult}} {{sharedPrise2ToResult}} {{sharedPrise3ToResult}} 
+                      <div class="submit" (click)="dollars()">
+                      <input type="submit" value="$" id="button-blue"/>
+                      <div class="ease"></div>
+                      <div class="submit" (click)="zl()">
+                        <input type="submit" value="PLN" id="button-blue"/>
+                        <div class="ease"></div>
+                      </div>
+                    </div>
+                    </th>
+                    <th></th>
+                    <th></th>
+                  </tr>
+                </thead> 
+                <thead>
+                  <tr></tr>
+                  <tr></tr>
+                </thead>
+              </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<app-footer></app-footer> 

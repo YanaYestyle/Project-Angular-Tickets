@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Noto+Sans+TC:wght@500&display=swap');
+
+#feedback-page{
+	text-align:center;
+}
+
+#form-main{
+	width: 100%;
+	float: left;
+	padding-top: 0%;
+}
+
+#form-div {
+	background-color: rgb(145, 150, 54, 0.5);
+	padding-left:35px;
+	padding-right:35px;
+	padding-top:35px;
+	padding-bottom:50px;
+	width: 450px;
+	float: left;
+	left: 52%;
+	position: absolute;
+  margin-top:30px;
+	margin-left: -260px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+}
+
+#feedback-input {
+	color:#524A3A;
+  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-weight: 50;
+	font-size: 100%;
+	border-radius: 0;
+	line-height: 10px;
+	background-color: #5A5F37;
+	padding: 5px 5px 5px 5px;
+	margin-bottom: 10px;
+	width:100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+input:hover,
+input:focus {
+	background-color:white;
+}
+
+#button-blue{
+	font-family: 'Fira Sans', sans-serif;
+  font-family: 'Noto Sans TC', sans-serif;
+	float: left;
+	width: 100%;
+	border: #FFFAE1 solid 4px;
+	cursor: pointer;
+	background-color: #5A5F37;
+	color: #FFFAE1;
+	font-size: 150%;
+	padding-top: 22px;
+	padding-bottom: 22px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+  margin-top: -4px;
+  font-weight: 300;
+}
+
+#button-blue:hover{
+	background-color: rgba(0,0,0,0);
+	color: #5A5F37;
+}
+	
+.submit:hover {
+	color: #5A5F37;
+}
+	
+.ease {
+	width: 0px;
+	height: 74px;
+	background-color: #FFFAE1;
+	-webkit-transition: .3s ease;
+	-moz-transition: .3s ease;
+	-o-transition: .3s ease;
+	-ms-transition: .3s ease;
+	transition: .3s ease;
+}
+
+.submit:hover .ease{
+  width:100%;
+  background-color:#FFFAE1;
+}
+
+#warning {
+  color: #FFFAE1;
+  font-size: 80%;
+  margin-top: 2%;
+  font-weight: 0;
+}
+
+#warningLogin {
+  color: #EB8A44;
+  text-align: center;
+}
+
+#passenges {
+  background-color: #FFFAE1 !important;
+}
+
+@media only screen and (max-width: 580px) {
+	#form-div{
+		left: 3%;
+		margin-right: 3%;
+		width: 88%;
+		margin-left: 0;
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+}
+
+
+#loginName {
+    margin: 0%;
+    padding: 0%;
+    color: #FFFAE1;
+}

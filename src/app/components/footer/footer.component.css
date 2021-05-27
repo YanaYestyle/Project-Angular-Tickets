@@ -1,0 +1,25 @@
+.cont{
+   margin: 0;
+   padding-top: 3600px;
+   max-width: 100%;
+   display: flex;
+   flex-direction: column;
+   background-image: linear-gradient(to bottom, rgba(255, 250, 225, 1), rgba(255, 250, 225, 0.1)), url("../../../assets/images/pic5.jpg");
+   background-size: cover;
+}
+
+
+#navbar{
+    margin-top: 100%;
+    background-color: #5A5F37;
+    
+}
+
+p{
+    text-align: center;
+    margin-left: 45%;
+    margin-bottom: 0%;
+    size: 0.5em;
+    color: #fffae1;
+}
+

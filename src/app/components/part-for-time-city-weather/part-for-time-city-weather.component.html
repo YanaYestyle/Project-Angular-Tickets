@@ -1,0 +1,25 @@
+<div class="cont">
+  <div id="text1">
+    <span id="text"></span> 
+    <div class="console-underscore" id="console">
+      &#95;
+    </div>
+  </div>
+  <div class="row">
+    <div class="col" id="weather">
+      <div>
+        <img [src]="icon" id="weatherImg">
+        <p id="temp">{{ temperature }}° С</p>
+      </div>
+    </div>
+    <div class="col">
+      <h3 id="time" >{{ time | uppercase }} </h3>
+      <p id="date">{{ date1 | uppercase }} <p>
+    </div>
+    <div class="col">
+      <img src="../../../assets/images/location.png" id="locationImg">
+      <h4 id="location">{{ city | uppercase }} </h4>
+      <p id="country">{{ country | uppercase }} <p>
+    </div>
+  </div>
+</div>

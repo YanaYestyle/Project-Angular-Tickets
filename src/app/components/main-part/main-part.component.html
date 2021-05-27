@@ -1,0 +1,60 @@
+<app-header></app-header>
+<app-part-for-time-city-weather></app-part-for-time-city-weather> 
+<div class="container-fluid">
+  
+  <div class="container-fluid" id="backgroundMain">
+    <div id="form-main">
+      <div id="form-div">
+      <form id="feedback-input">
+        <select [(ngModel)]="selectedOption" name="cars" class="custom-select" (change)="onSelected()">
+        <option selected hidden [(ngModel)]="selected1">Point of departure</option>
+        <option *ngFor="let o of options" required>
+          {{o.name}}
+        </option>
+        </select>  
+      </form>
+      <div class="container" [innerHTML]="warningCityDeparture"></div>
+      <form id="feedback-input" #find1Form="ngForm">
+        <select name="cars" class="custom-select" [(ngModel)]="selectedOption1" (change)="onArrival()">
+        <option selected hidden [(ngModel)]="selected1">Point of arrival</option>
+        <option [hidden]="hid1" *ngFor="let on of arrivials" required>
+          {{on.name}}
+        </option>
+        <option [hidden]="hid2" *ngFor="let on of arrivialsTwo" required>
+          {{on.name}}
+        </option>
+        <option [hidden]="hid3" *ngFor="let on of arrivialsThree" required>
+          {{on.name}}
+        </option>
+        </select>
+      </form>
+      <div class="container" [innerHTML]="warningCityArrival"></div>
+      <form #dateForForm="ngForm" (change)="dateFor(dateForForm)" id="feedback-input">
+        <input ngModel #date="ngModel" type="date" class="form-control" id="date" name="date" [placeholder]="someDate" [value]="someDate" required>
+      </form>
+      <div class="container" [innerHTML]="warningDate"></div>
+      <div class="container" [innerHTML]="warningDate2"></div>
+        <form #passengerForm="ngForm" (change)="passengerFor(passengerForm)" id="feedback-input">
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="passenges">Passengers</span>
+            </div>
+            <input ngModel #adult="ngModel" type="adult" name="adult" class="form-control" placeholder="1 adult (14+ years old)" required maxlength=2 pattern="[0-9]+">
+            <input ngModel #children="ngModel" type="children" name="children" class="form-control" placeholder="0 children (2-14 years old)"  maxlength=2 pattern="[0-9]+">
+          <div class="container" [innerHTML]="warningPassengers" id="warning"></div>
+          <div class="container" [innerHTML]="warningPassengerForButton" id="warning"></div>
+          <div *ngIf="adult.errors?.pattern" id="warning" > Integers only (for example, 1 or 20 or 4) </div>
+          <div *ngIf="children.errors?.pattern" id="warning" > Integers only (for example, 1 or 20 or 4) </div> 
+          </div>
+        </form>
+      <div class="submit">
+        <input type="submit" value="FIND" id="button-blue" (click)="goToLogin()"/>
+        <div class="ease"></div>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>
+
+  

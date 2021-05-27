@@ -1,0 +1,23 @@
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    margin-top: -1.5%;
+    padding: 0%;
+    background-color: #5A5F37;
+}
+
+li.nav-item.dropdown{
+    margin-top: 0%;
+    padding: 0%;
+}
+
+a.nav-link.dropdown-toggle{
+    color: #FFFAE1; 
+}
+
+a.dropdown-item{
+    color: #524A3A; 
+}

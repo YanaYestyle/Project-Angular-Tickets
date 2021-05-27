@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Noto+Sans+TC:wght@500&display=swap');
+
+.cont {
+	margin-left: -5%;
+	padding: 0;
+	width: 110%;
+}
+#feedback-page{
+	text-align:center;
+}
+
+#form-main{
+	width: 100%;
+	float: left;
+	padding-top: 0%;
+}
+
+#form-div {
+	background-color: rgb(145, 150, 54, 0.5);
+	padding-left:35px;
+	padding-right:35px;
+	padding-top:35px;
+	padding-bottom:50px;
+	float: left;
+	margin-left: 10%;
+	position: absolute;
+    margin-top:30px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+	height: auto;
+	width: 90%;
+}
+
+
+
+input:hover,
+input:focus {
+	background-color:white;
+}
+
+#button-blue{
+	font-family: 'Fira Sans', sans-serif;
+    font-family: 'Noto Sans TC', sans-serif;
+	float: left;
+	width: 25%;
+	border: #FFFAE1 solid 4px;
+	cursor: pointer;
+	background-color: #5A5F37;
+	color: #FFFAE1;
+	font-size: 0.8em;
+	text-align: center;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+    margin-top: -4px;
+    font-weight: 100;
+}
+
+#button-blue:hover{
+	background-color: rgba(0,0,0,0);
+	color: #5A5F37;
+}
+	
+.submit:hover {
+	color: #5A5F37;
+}
+
+.submit:hover .ease{
+  width:30%;
+  background-color:#FFFAE1;
+}
+
+
+
+@media only screen and (max-width: 580px) {
+	#form-div{
+		left: 3%;
+		margin-right: 3%;
+		width: auto;
+		margin-left: 0;
+		padding-left: 3%;
+		padding-right: 3%;
+		
+	}
+}
+
+/*for table*/
+.tableDate {
+	text-align: left;
+	background-color: #FFFAE1;
+	width: 20%;
+	color: #524A3A;
+}
+
+.tableName {
+	width: 20%;
+	color: #524A3A;
+}
+
+

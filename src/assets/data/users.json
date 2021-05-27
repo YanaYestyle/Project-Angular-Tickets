@@ -1,0 +1,8 @@
+[
+    {"loginName": "mathew@gmail.com", "password": "mathew1234", "firstName": "John", "lastName": "Waine", "id": 1},
+    {"loginName": "zombie123@gmail.com", "password": "asdf4567", "firstName": "John", "lastName": "Malkovich",  "id": 2},
+    {"loginName": "rose@gmail.com", "password": "rosie123", "firstName": "Rose", "lastName": "Zonder", "id": 3 },
+    {"loginName": "frenchman@gmail.com", "password": "art98765", "firstName": "Arthur", "lastName": "Globo", "id": 4},
+    {"loginName": "hello123@gmail.com", "password": "ghjpl123", "firstName": "Vanessa", "lastName": "Waine",  "id": 5}
+]
+

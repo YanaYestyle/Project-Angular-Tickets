@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Noto+Sans+TC:wght@500&display=swap');
+
+.cont {
+	margin-left: -5%;
+	padding: 0;
+	width: 110%;
+}
+#feedback-page{
+	text-align:center;
+}
+
+#form-main{
+	width: 100%;
+	float: left;
+	padding-top: 0%;
+}
+
+#form-div {
+	background-color: rgb(145, 150, 54, 0.5);
+	padding-left:35px;
+	padding-right:35px;
+	padding-top:35px;
+	padding-bottom:50px;
+	float: left;
+	margin-left: 10%;
+	position: absolute;
+    margin-top:30px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+	height: auto;
+	width: 90%;
+}
+
+
+
+input:hover,
+input:focus {
+	background-color:white;
+}
+
+#button-blue{
+	font-family: 'Fira Sans', sans-serif;
+    font-family: 'Noto Sans TC', sans-serif;
+	float: left;
+	width: 100%;
+	border: #FFFAE1 solid 4px;
+	cursor: pointer;
+	background-color: #5A5F37;
+	color: #FFFAE1;
+	font-size: 100%;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+    margin-top: -4px;
+    font-weight: 100;
+}
+
+#button-blue:hover{
+	background-color: rgba(0,0,0,0);
+	color: #5A5F37;
+}
+	
+.submit:hover {
+	color: #5A5F37;
+}
+
+.submit:hover .ease{
+  width:30%;
+  background-color:#FFFAE1;
+}
+
+
+
+@media only screen and (max-width: 580px) {
+	#form-div{
+		left: 3%;
+		margin-right: 3%;
+		width: auto;
+		margin-left: 0;
+		padding-left: 3%;
+		padding-right: 3%;
+		
+	}
+}
+
+/*for continue*/
+#buttonContinue {
+	width: 200px;
+	margin-top: 4%;
+	float: left;
+	margin-left: 50%;
+	height: 100px;
+}
+
+#buttonContinue1 {
+	width: 200px;
+	margin-top: 4%;
+	float: left;
+	margin-left: 70%;
+	height: 100px;
+}
+
+
+
+/*for welcome*/
+#welcome {
+	background-color: #FFFAE1;
+	padding: 10px;
+	border-radius: 7px;
+	color: #524A3A;
+}
+
+#forName {
+	font-size: 1.2em;
+}
+
+#tableTime {
+	font-size: 0.5em;
+}
+
+#tableDate {
+	text-align: right;
+}
+
+#tableSeatWord{
+	font-size: 1.2em;	
+	color: #524A3A;
+	text-align: right;
+}
+
+#tableSeat {
+	background-color: #5A5F37;
+	font-size: 2em;	
+	font-weight: 300;
+	color: #FFFAE1;
+	border-radius: 7px;
+	padding: 10px;
+	text-align: right;
+}
+
+/*for baggage*/
+.baggage{
+	display: inline-flex;
+}
+  
+.baggageText{
+	display: inline-flex;
+	color:#524A3A;
+	font-size: 1em;
+	padding-left: 5px;
+}
+
+.tableBaggage {
+	background-color: #FFFAE1;
+	border-right: solid #5A5F37 1px;
+	border-radius: 7px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.borderNo {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+}
+
+#noBorder {
+	border-right: solid 0;
+	border-radius: 0 7px 0 0;
+	padding: 10px 20px 10px 20px;
+}
+
+#border {
+	border-radius: 7px 0 0 0;
+	padding: 10px 20px 10px 20px;
+}
+
+#border1 {
+	border-radius: 0;
+	padding: 10px 20px 10px 20px;
+}
+
+#border11 {
+	border-radius: 0;
+	border-right: solid 0;
+	padding: 10px 20px 10px 20px;
+}
+
+#border111 {
+	border-radius: 0 0 0 7px;
+	border-right: solid 0;
+	padding: 10px 20px 10px 20px;
+	background-color: rgb(90, 95, 55, 0.3);
+}
+
+#border112 {
+	border-radius: 0 0 0 0;
+	border-right: solid 0;
+	padding: 10px 20px 10px 20px;
+	background-color: rgb(90, 95, 55, 0.3);
+}
+
+#border113 {
+	border-radius: 0 0 7px 0;
+	border-right: solid 0;
+	padding: 10px 20px 10px 20px;
+	background-color: rgb(90, 95, 55, 0.3);
+}
+
+#container {
+	width: 100%;
+}
+
+/*for plane*/
+#plane1 {
+	display:none;
+	height: 100%;
+	margin-top: 10%;
+	margin-left: 20%;
+}
+
+#plane11 {
+	display:none;
+	height: 100%;
+}
+
+#plane111 {
+	display:none;
+	height: 100%;
+}
+
+#forBackground {
+	width: 80%;
+    background-image: url("../../../assets/images/Embraer170.jpg") ;
+	background-repeat: no-repeat;
+	background-size: 550px 1600px;
+	background-position:-102px;
+	
+	
+}
+
+#embraerImg {
+	width: 100%;
+    max-width: 200px;
+    height: 100%;
+}
+
+.armchairImg {
+	width: 25px;
+	height: 40px;
+}
+
+
+#toLine {
+	float: left;
+	margin-left: 5%;
+}
+
+.span1 {
+	float: left;
+}
+
+.span {
+	float: right;
+}
+
+td {
+	padding: 0;
+}
+
+.spanA {
+	padding-right: 15%;
+	float: right;
+}
+
+.rowNumber {
+	padding-top: 65%;
+	text-align: center;
+	font-size: 0.75em;
+	color: #524A3A;
+	margin: 0;
+	padding-left: 25%;
+}
+
+.rowNumber1 {
+	padding-top: 18%;
+	text-align: center;
+	font-size: 0.75em;
+	color: #524A3A;
+	margin: 0;
+	padding-left: 25%;
+}
+
+
+th {
+	color: #524A3A;
+}
+
+#colForSeat {
+	max-width: max-content;
+	width: 100%;
+	margin-left: 50px;
+}
+
+#colForSeat1 {
+	max-width: max-content;
+	width: 100%;
+}
+
+#seat11 {
+	margin-left: 20%;
+}
+
+/*for middle distance*/
+.occupied {
+    fill: gold;
+}
+
+.free {
+    fill: transparent;
+}
+.empty-background
+{
+  fill:transparent
+}

@@ -1,0 +1,28 @@
+<app-header></app-header>
+<app-part-for-time-city-weather></app-part-for-time-city-weather>
+<div class="container-fluid">
+ 
+  
+    <div id="form-main">
+      <div id="form-div">
+        <div class="container" [innerHTML]="warningLogin" id="warningLogin"></div>
+        <h4 id="loginName">login name</h4>
+        <form #loginForForm="ngForm" id="feedback-input" (change)="loginForFor(loginForForm)">
+          <input ngModel #login="ngModel" type="text" class="form-control" name="login" placeholder="yana@gmail.com" required>
+          <div *ngIf="login.errors" id="warning" > Enter your login name </div>
+        </form>
+        <h4 id="loginName">password</h4>
+        <form #passwordForForm="ngForm" id="feedback-input" (change)="passwordForFor(passwordForForm)">
+          <input cc-csc ngModel #password="ngModel" type="password" class="form-control" name="password" required>
+          <div *ngIf="password.errors" id="warning" > Enter your password </div>
+        </form>
+      <div class="submit">
+        <input type="submit" value="LOG IN" id="button-blue" (click)="goToDetails()"/>
+        <div class="ease"></div>
+      </div>
+      </div>
+    </div>
+  
+</div>
+
+<app-footer></app-footer>
