@@ -33,14 +33,13 @@ export class DetailsComponent implements OnInit {
   public sharedSeatOnTheDisplay3: any;
   public sharedSeatOnTheDisplay4: any;
   public sharedSelected: any;
-
   
-
-
-
+  
+  
+  
+  flightTime: string;
   dateUserToView: any;
   dateUserToView2: any;
-  flightTime: string;
   departureTime: any;
   arrivalTime: any;
   viewDisplay = "none";

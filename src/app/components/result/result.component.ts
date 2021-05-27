@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { DatasService } from '../../services/datas.service';
 import { Router } from '@angular/router';
+import { HttpClient } from '@angular/common/http';
 
 
 @Component({
@@ -44,8 +45,14 @@ export class ResultComponent implements OnInit {
   passenger4: string;
   passenger5: string;*/
 
+  url1 = "http://api.weatherapi.com/v1/forecast.json?key=27961d4a780e44bcae7173229213004&q=";
+  url2 = "&aqi=no";
+  urlWeather = "";
+  temperature: any;
+  icon: any;
 
-  constructor(private datasData:DatasService, private router:Router) { }
+
+  constructor(private datasData:DatasService, private router:Router, private http:HttpClient) { }
 
   ngOnInit(): void {
     this.dateUserToView = this.dateUser.toUTCString().substring(0,16);
@@ -115,6 +122,13 @@ export class ResultComponent implements OnInit {
     }
 
   }
+
+ /* this.urlWeather = this.url1 + this.city + this.url2;
+      this.getConnectionDetails().subscribe( (resultWeather:any[]) => {
+        var t1 = resultWeather['current'];
+        this.temperature = t1['temp_c'];
+        var t2 = t1['condition'];
+        this.icon = t2['icon'];*/
 
   dollars(){
 
