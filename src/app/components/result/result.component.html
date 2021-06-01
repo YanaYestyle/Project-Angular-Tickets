@@ -11,39 +11,51 @@
                   <tr>
                     <th class="tableName">DEPARTURE DATE:</th>
                     <th class="tableDate">{{dateUserToView}}</th>
-                    <th></th>
-                    <th></th>
+                    <th class="column"></th>
+                    <th id="city">{{cityArrived}}</th>
                   </tr>
                 </thead> 
                 <thead>
                   <tr>
                     <th class="tableName">ARRIVAL DATE:</th>
                     <th class="tableDate">{{dateUserToView2}}</th>
-                    <th></th>
-                    <th></th>
+                    <th class="column"></th>
+                    <th class="weather">
+                      <p id="temp">{{date}}</p>
+                      <img [src]="icon" id="weatherImg">
+                      <p id="temp">{{ temperature }}° С</p>
+                    </th>
                   </tr>
                 </thead>
                 <thead>
                   <tr>
                     <th class="tableName">DEPARTURE CITY:</th>
                     <th class="tableDate">{{cityDeparture}}</th>
-                    <th></th>
-                    <th></th>
+                    <th class="column"></th>
+                    <th class="weather">
+                      <p id="temp">{{date1}}</p>
+                      <img [src]="icon1" id="weatherImg">
+                      <p id="temp">{{ temperature1 }}° С</p>
+                    </th>
                   </tr>
                 </thead>
                 <thead>
                   <tr>
                     <th class="tableName">ARRIVAL CITY:</th>
                     <th class="tableDate">{{cityArrived}}</th>
-                    <th></th>
-                    <th></th>
+                    <th class="column"></th>
+                    <th class="weather">
+                      <p id="temp">{{date2}}</p>
+                      <img [src]="icon2" id="weatherImg">
+                      <p id="temp">{{ temperature2 }}° С</p>
+                  </th>
                   </tr>
                 </thead> 
                 <thead>
                   <tr>
                     <th class="tableName">DEPARTURE TIME:</th>
                     <th class="tableDate">{{departureTime}}</th>
-                    <th></th>
+                    <th class="column"></th>
                     <th></th>
                   </tr>
                 </thead> 
@@ -51,7 +63,7 @@
                   <tr>
                     <th class="tableName">ARRIVAL TIME:</th>
                     <th class="tableDate">{{arrivalTime}}</th>
-                    <th></th>
+                    <th class="column"></th>
                     <th></th>
                   </tr>
                 </thead>
@@ -59,7 +71,7 @@
                   <tr>
                     <th class="tableName">FLIGHT TIME:</th>
                     <th class="tableDate">{{flightTime}}</th>
-                    <th></th>
+                    <th class="column"></th>
                     <th></th>
                   </tr>
                 </thead>
@@ -67,24 +79,28 @@
                   <tr>
                     <th class="tableName">SEAT:</th>
                     <th class="tableDate">{{seatOnTheDisplay}} {{sharedSelected}}</th>
-                    <th></th>
+                    <th class="column"></th>
                     <th></th>
                   </tr>
                 </thead> 
                 <thead>
                   <tr>
                     <th class="tableName">PRISE:</th>
-                    <th class="tableDate">{{sharedPrise1ToResult}} {{sharedPrise2ToResult}} {{sharedPrise3ToResult}} 
+                    <th class="tableDate">
+                      <div *ngIf="dollar">{{sharedPrise11ToResult}} {{sharedPrise22ToResult}} {{sharedPrise33ToResult}}</div>
+                      <div *ngIf="dollar1">{{sharedPrise11ToResult}} {{sharedPrise22ToResult}} {{sharedPrise33ToResult}}</div>
+                      <div class="tableDate" *ngIf="!dollar">{{priseUsd | currency:'USD':'symbol-narrow':'1.1-1'}} </div>
+                      <div class="tableDate" *ngIf="!dollar1">{{prisePln | currency:'PLN':'symbol-narrow':'1.1-1'}}</div>
                       <div class="submit" (click)="dollars()">
-                      <input type="submit" value="$" id="button-blue"/>
-                      <div class="ease"></div>
+                        <input type="submit" value="$" id="button-blue"/>
+                        <div class="ease"></div>
+                      </div>
                       <div class="submit" (click)="zl()">
                         <input type="submit" value="PLN" id="button-blue"/>
                         <div class="ease"></div>
                       </div>
-                    </div>
                     </th>
-                    <th></th>
+                    <th class="column"></th>
                     <th></th>
                   </tr>
                 </thead> 

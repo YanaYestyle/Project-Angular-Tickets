@@ -164,14 +164,12 @@ export class MainPartComponent implements OnInit {
     this.formValuePassenger = form.value['adult'];
     if(form.value['adult'] <= 0) {
       this.warningPassengers = "Are you going to fly? (enter at least yourself - this means 1)";
-    } else if(form.value['adult'] > 0){
+    } else if(form.value['adult'] > 0 && form.value['adult'] <= this.maxFormValuePassenger){
       this.warningPassengers = "";
-    } else if(this.formValuePassenger > this.maxFormValuePassenger){
-      this.warningMaxPassenger = "The maximum number of tickets that can be purchased at a time is 5 or less.";
-    } else if(this.formValuePassenger <= this.maxFormValuePassenger){
-      this.warningMaxPassenger = "";
       this.datasData.sharedPassenger = this.formValuePassenger;
-    }
+    } else if(form.value['adult'] > this.maxFormValuePassenger){
+      this.warningMaxPassenger = "The maximum number of tickets that can be purchased at a time is 5 or less.";
+    } 
     console.log(form.value)
     console.log(form.valid)
   }

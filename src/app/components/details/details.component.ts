@@ -6826,8 +6826,11 @@ export class DetailsComponent implements OnInit {
       this.datasData.sharedPrise2ToResult = this.sharedPrise2;
     } else if(id = 'border113'){
       this.datasData.sharedPrise3ToResult = this.sharedPrise3;
+    } else if(id = '26F'){
+      this.selectedView = '26F';
     }
   })
+  selectedView: any;
  
   
   

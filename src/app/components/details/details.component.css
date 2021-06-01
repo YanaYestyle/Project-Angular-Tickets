@@ -61,6 +61,30 @@ input:focus {
 	background-color: rgba(0,0,0,0);
 	color: #5A5F37;
 }
+
+.button-blue{
+	font-family: 'Fira Sans', sans-serif;
+    font-family: 'Noto Sans TC', sans-serif;
+	float: left;
+	width: 100%;
+	border: #FFFAE1 solid 4px;
+	cursor: pointer;
+	background-color: #5A5F37;
+	color: #FFFAE1;
+	font-size: 100%;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+    margin-top: -4px;
+    font-weight: 100;
+}
+
+.button-blue:hover{
+	background-color: rgba(0,0,0,0);
+	color: #5A5F37;
+}
 	
 .submit:hover {
 	color: #5A5F37;
@@ -317,7 +341,7 @@ th {
 
 /*for middle distance*/
 .occupied {
-    fill: gold;
+    fill: #5A5F37;
 }
 
 .free {
