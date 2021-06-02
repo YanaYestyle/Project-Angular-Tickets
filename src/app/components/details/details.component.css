@@ -347,7 +347,9 @@ th {
 .free {
     fill: transparent;
 }
-.empty-background
-{
+.empty-background {
   fill:transparent
 }
+
+/*for large distance*/
+

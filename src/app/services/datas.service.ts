@@ -26,6 +26,7 @@ export class DatasService {
   public sharedSeatOnTheDisplay2: any;
   public sharedSeatOnTheDisplay3: any;
   public sharedSeatOnTheDisplay4: any;
+  public sharedSelectedView: any;
   
 
  

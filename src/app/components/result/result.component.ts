@@ -30,6 +30,7 @@ export class ResultComponent implements OnInit {
   public sharedSeatOnTheDisplay3: any = this.datasData.sharedSeatOnTheDisplay3;
   public sharedSeatOnTheDisplay4: any = this.datasData.sharedSeatOnTheDisplay4;
   public sharedSelected: any = this.datasData.sharedSelected;
+  public sharedSelectedView: any = this.datasData.sharedSelectedView;
 
 
   dateUserToView: any;
