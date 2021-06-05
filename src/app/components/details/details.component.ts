@@ -6820,617 +6820,619 @@ export class DetailsComponent implements OnInit {
       this.seatColorChange76 = true;
       this.seatColorChange77 = true;
       this.seatColorChange78 = true;
-    } else if(id = 'border111'){
-      this.datasData.sharedPrise1ToResult = this.sharedPrise1;
-    } else if(id = 'border112'){
+    } else if(id === 'prise1'){
+      console.log(this.sharedPrise2)
       this.datasData.sharedPrise2ToResult = this.sharedPrise2;
-    } else if(id = 'border113'){
+    } else if(id === 'prise2'){
       this.datasData.sharedPrise3ToResult = this.sharedPrise3;
-    } else if(id = '26F'){
-      this.selectedView = '26F';
+    } else if(id === 'prise3'){
+      this.datasData.sharedPrise1ToResult = this.sharedPrise1;
+    } else if(id === '26F'){
+      this.selectedView = id;
+      console.log(this.selectedView)
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '26E'){
+    } else if(id === '26E'){
       this.selectedView = '26E';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '26D'){
+    } else if(id === '26D'){
       this.selectedView = '26D';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '26C'){
+    } else if(id === '26C'){
       this.selectedView = '26C';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '26B'){
+    } else if(id === '26B'){
       this.selectedView = '26B';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '26A'){
+    } else if(id === '26A'){
       this.selectedView = '26A';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '25F'){
+    } else if(id === '25F'){
       this.selectedView = '25F';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '25E'){
+    } else if(id === '25E'){
       this.selectedView = '25E';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '25D'){
+    } else if(id === '25D'){
       this.selectedView = '25D';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '25C'){
+    } else if(id === '25C'){
       this.selectedView = '25C';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '25B'){
+    } else if(id === '25B'){
       this.selectedView = '25B';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '25A'){
+    } else if(id === '25A'){
       this.selectedView = '25A';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    }  else if(id = '24F'){
+    }  else if(id === '24F'){
       this.selectedView = '24F';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '24E'){
+    } else if(id === '24E'){
       this.selectedView = '24E';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '24D'){
+    } else if(id === '24D'){
       this.selectedView = '24D';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '24C'){
+    } else if(id === '24C'){
       this.selectedView = '24C';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '24B'){
+    } else if(id === '24B'){
       this.selectedView = '24B';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '24A'){
+    } else if(id === '24A'){
       this.selectedView = '24A';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '23F'){
+    } else if(id === '23F'){
       this.selectedView = '23F';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '23E'){
+    } else if(id === '23E'){
       this.selectedView = '23E';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '23D'){
+    } else if(id === '23D'){
       this.selectedView = '23D';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '23C'){
+    } else if(id === '23C'){
       this.selectedView = '23C';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '23B'){
+    } else if(id === '23B'){
       this.selectedView = '23B';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '23A'){
+    } else if(id === '23A'){
       this.selectedView = '23A';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '22F'){
+    } else if(id === '22F'){
       this.selectedView = '22F';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '22E'){
+    } else if(id === '22E'){
       this.selectedView = '22E';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '22D'){
+    } else if(id === '22D'){
       this.selectedView = '22D';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '22C'){
+    } else if(id === '22C'){
       this.selectedView = '22C';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '22B'){
+    } else if(id === '22B'){
       this.selectedView = '22B';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '22A'){
+    } else if(id === '22A'){
       this.selectedView = '22A';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '21F'){
+    } else if(id === '21F'){
       this.selectedView = '21F';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '21E'){
+    } else if(id === '21E'){
       this.selectedView = '21E';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '21D'){
+    } else if(id === '21D'){
       this.selectedView = '21D';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '21C'){
+    } else if(id === '21C'){
       this.selectedView = '21C';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '21B'){
+    } else if(id === '21B'){
       this.selectedView = '21B';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '21A'){
+    } else if(id === '21A'){
       this.selectedView = '21A';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '20F'){
+    } else if(id === '20F'){
       this.selectedView = '20F';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '20E'){
+    } else if(id === '20E'){
       this.selectedView = '20E';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '20D'){
+    } else if(id === '20D'){
       this.selectedView = '20D';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '20C'){
+    } else if(id === '20C'){
       this.selectedView = '20C';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '20B'){
+    } else if(id === '20B'){
       this.selectedView = '20B';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '20A'){
+    } else if(id === '20A'){
       this.selectedView = '20A';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '19F'){
+    } else if(id === '19F'){
       this.selectedView = '19F';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '19E'){
+    } else if(id === '19E'){
       this.selectedView = '19E';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '19D'){
+    } else if(id === '19D'){
       this.selectedView = '19D';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '19C'){
+    } else if(id === '19C'){
       this.selectedView = '19C';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '19B'){
+    } else if(id === '19B'){
       this.selectedView = '19B';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '19A'){
+    } else if(id === '19A'){
       this.selectedView = '19A';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    }  else if(id = '18F'){
+    }  else if(id === '18F'){
       this.selectedView = '18F';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '18E'){
+    } else if(id === '18E'){
       this.selectedView = '18E';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '18D'){
+    } else if(id === '18D'){
       this.selectedView = '18D';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '18C'){
+    } else if(id === '18C'){
       this.selectedView = '18C';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '18B'){
+    } else if(id === '18B'){
       this.selectedView = '18B';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '18A'){
+    } else if(id === '18A'){
       this.selectedView = '18A';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '17F'){
+    } else if(id === '17F'){
       this.selectedView = '17F';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '17E'){
+    } else if(id === '17E'){
       this.selectedView = '17E';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '17D'){
+    } else if(id === '17D'){
       this.selectedView = '17D';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '17C'){
+    } else if(id === '17C'){
       this.selectedView = '17C';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '17B'){
+    } else if(id === '17B'){
       this.selectedView = '17B';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '17A'){
+    } else if(id === '17A'){
       this.selectedView = '17A';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    }else if(id = '16F'){
+    }else if(id === '16F'){
       this.selectedView = '16F';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '16E'){
+    } else if(id === '16E'){
       this.selectedView = '16E';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '16D'){
+    } else if(id === '16D'){
       this.selectedView = '16D';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '16C'){
+    } else if(id === '16C'){
       this.selectedView = '16C';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '16B'){
+    } else if(id === '16B'){
       this.selectedView = '16B';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '16A'){
+    } else if(id === '16A'){
       this.selectedView = '16A';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '15F'){
+    } else if(id === '15F'){
       this.selectedView = '15F';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '15E'){
+    } else if(id === '15E'){
       this.selectedView = '15E';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '15D'){
+    } else if(id === '15D'){
       this.selectedView = '15D';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '15C'){
+    } else if(id === '15C'){
       this.selectedView = '15C';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '15B'){
+    } else if(id === '15B'){
       this.selectedView = '15B';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '15A'){
+    } else if(id === '15A'){
       this.selectedView = '15A';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    }  else if(id = '14F'){
+    }  else if(id === '14F'){
       this.selectedView = '14F';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '14E'){
+    } else if(id === '14E'){
       this.selectedView = '14E';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '14D'){
+    } else if(id === '14D'){
       this.selectedView = '14D';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '14C'){
+    } else if(id === '14C'){
       this.selectedView = '14C';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '14B'){
+    } else if(id === '14B'){
       this.selectedView = '14B';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '14A'){
+    } else if(id === '14A'){
       this.selectedView = '14A';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '13F'){
+    } else if(id === '13F'){
       this.selectedView = '13F';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '13E'){
+    } else if(id === '13E'){
       this.selectedView = '13E';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '13D'){
+    } else if(id === '13D'){
       this.selectedView = '13D';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '13C'){
+    } else if(id === '13C'){
       this.selectedView = '13C';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '13B'){
+    } else if(id === '13B'){
       this.selectedView = '13B';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '13A'){
+    } else if(id === '13A'){
       this.selectedView = '13A';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '12F'){
+    } else if(id === '12F'){
       this.selectedView = '12F';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '12E'){
+    } else if(id === '12E'){
       this.selectedView = '12E';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '12D'){
+    } else if(id === '12D'){
       this.selectedView = '12D';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '12C'){
+    } else if(id === '12C'){
       this.selectedView = '12C';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '12B'){
+    } else if(id === '12B'){
       this.selectedView = '12B';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '12A'){
+    } else if(id === '12A'){
       this.selectedView = '12A';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    }else if(id = '11F'){
+    }else if(id === '11F'){
       this.selectedView = '11F';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '11E'){
+    } else if(id === '11E'){
       this.selectedView = '11E';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '11D'){
+    } else if(id === '11D'){
       this.selectedView = '11D';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '11C'){
+    } else if(id === '11C'){
       this.selectedView = '11C';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '11B'){
+    } else if(id === '11B'){
       this.selectedView = '11B';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '11A'){
+    } else if(id === '11A'){
       this.selectedView = '11A';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '10F'){
+    } else if(id === '10F'){
       this.selectedView = '10F';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '10E'){
+    } else if(id === '10E'){
       this.selectedView = '10E';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '10D'){
+    } else if(id === '10D'){
       this.selectedView = '10D';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '10C'){
+    } else if(id === '10C'){
       this.selectedView = '10C';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '10B'){
+    } else if(id === '10B'){
       this.selectedView = '10B';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '10A'){
+    } else if(id === '10A'){
       this.selectedView = '10A';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    }  else if(id = '9F'){
+    }  else if(id === '9F'){
       this.selectedView = '9F';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '9E'){
+    } else if(id === '9E'){
       this.selectedView = '9E';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '9D'){
+    } else if(id === '9D'){
       this.selectedView = '9D';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '9C'){
+    } else if(id === '9C'){
       this.selectedView = '9C';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '9B'){
+    } else if(id === '9B'){
       this.selectedView = '9B';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '9A'){
+    } else if(id === '9A'){
       this.selectedView = '9A';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '8F'){
+    } else if(id === '8F'){
       this.selectedView = '8F';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '8E'){
+    } else if(id === '8E'){
       this.selectedView = '8E';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '8D'){
+    } else if(id === '8D'){
       this.selectedView = '8D';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '8C'){
+    } else if(id === '8C'){
       this.selectedView = '8C';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '8B'){
+    } else if(id === '8B'){
       this.selectedView = '8B';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '8A'){
+    } else if(id === '8A'){
       this.selectedView = '8A';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '7F'){
+    } else if(id === '7F'){
       this.selectedView = '7F';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '7E'){
+    } else if(id === '7E'){
       this.selectedView = '7E';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '7D'){
+    } else if(id === '7D'){
       this.selectedView = '7D';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '7C'){
+    } else if(id === '7C'){
       this.selectedView = '7C';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '7B'){
+    } else if(id === '7B'){
       this.selectedView = '7B';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '7A'){
+    } else if(id === '7A'){
       this.selectedView = '7A';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    }else if(id = '6F'){
+    }else if(id === '6F'){
       this.selectedView = '6F';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '6E'){
+    } else if(id === '6E'){
       this.selectedView = '6E';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '6D'){
+    } else if(id === '6D'){
       this.selectedView = '6D';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '6C'){
+    } else if(id === '6C'){
       this.selectedView = '6C';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '6B'){
+    } else if(id === '6B'){
       this.selectedView = '6B';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '6A'){
+    } else if(id === '6A'){
       this.selectedView = '6A';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '5F'){
+    } else if(id === '5F'){
       this.selectedView = '5F';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '5E'){
+    } else if(id === '5E'){
       this.selectedView = '5E';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '5D'){
+    } else if(id === '5D'){
       this.selectedView = '5D';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '5C'){
+    } else if(id === '5C'){
       this.selectedView = '5C';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '5B'){
+    } else if(id === '5B'){
       this.selectedView = '5B';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '5A'){
+    } else if(id === '5A'){
       this.selectedView = '5A';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    }  else if(id = '4F'){
+    }  else if(id === '4F'){
       this.selectedView = '4F';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '4E'){
+    } else if(id === '4E'){
       this.selectedView = '4E';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '4D'){
+    } else if(id === '4D'){
       this.selectedView = '4D';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '4C'){
+    } else if(id === '4C'){
       this.selectedView = '4C';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '4B'){
+    } else if(id === '4B'){
       this.selectedView = '4B';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '4A'){
+    } else if(id === '4A'){
       this.selectedView = '4A';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '3F'){
+    } else if(id === '3F'){
       this.selectedView = '3F';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '3E'){
+    } else if(id === '3E'){
       this.selectedView = '3E';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '3D'){
+    } else if(id === '3D'){
       this.selectedView = '3D';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '3C'){
+    } else if(id === '3C'){
       this.selectedView = '3C';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '3B'){
+    } else if(id === '3B'){
       this.selectedView = '3B';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '3A'){
+    } else if(id === '3A'){
       this.selectedView = '3A';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '2E'){
+    } else if(id === '2E'){
       this.selectedView = '2E';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '2D'){
+    } else if(id === '2D'){
       this.selectedView = '2D';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '2C'){
+    } else if(id === '2C'){
       this.selectedView = '2C';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '2B'){
+    } else if(id === '2B'){
       this.selectedView = '2B';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '2A'){
+    } else if(id === '2A'){
       this.selectedView = '2A';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '1C'){
+    } else if(id === '1C'){
       this.selectedView = '1C';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '1B'){
+    } else if(id === '1B'){
       this.selectedView = '1B';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;
-    } else if(id = '1A'){
+    } else if(id === '1A'){
       this.selectedView = '1A';
       this.sharedSelectedView = this.selectedView;
       this.datasData.sharedSelectedView = this.sharedSelectedView;

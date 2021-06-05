@@ -17,6 +17,7 @@ import { PartForTimeCityWeatherComponent } from './components/part-for-time-city
 import { LoginComponent } from './components/login/login.component';
 import { DetailsComponent } from './components/details/details.component';
 import { ResultComponent } from './components/result/result.component';
+import { CountriesComponent } from './components/countries/countries.component';
 
 
 
@@ -31,6 +32,7 @@ import { ResultComponent } from './components/result/result.component';
     LoginComponent,
     DetailsComponent,
     ResultComponent,
+    CountriesComponent,
   ],
   imports: [
     BrowserModule,

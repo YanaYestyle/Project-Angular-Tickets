@@ -133,5 +133,10 @@ input:focus {
 	width: 30px;
 }
 
+#forName {
+	color: #524A3A;
+	font-weight: 700;
+	font-size: 1.5em;
+}
 
 
