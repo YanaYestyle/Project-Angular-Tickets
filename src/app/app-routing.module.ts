@@ -6,6 +6,7 @@ import { MainPartComponent } from './components/main-part/main-part.component';
 import { LoginComponent } from './components/login/login.component';
 import { DetailsComponent } from './components/details/details.component';
 import { ResultComponent } from './components/result/result.component';
+import { CountriesComponent } from './components/countries/countries.component';
 
 const routes: Routes = [
   { path: "", redirectTo: "main", pathMatch: "full" },
@@ -14,6 +15,8 @@ const routes: Routes = [
   { path: "login", component: LoginComponent },
   { path: "details", component: DetailsComponent },
   { path: "result", component: ResultComponent },
+  { path: "mainPart", component: MainPartComponent },
+  { path: "countries", component: CountriesComponent },
 ];
 
 @NgModule({
@@ -21,3 +24,5 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
+
+export const routingComponents = [MainPartComponent,CountriesComponent]

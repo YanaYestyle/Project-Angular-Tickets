@@ -19,3 +19,19 @@
 .card-body {
     background-color: #919636;
 }
+
+#btn {
+    background-color: #FFFAE1;
+	color: #5A5F37;
+    border-color: #5A5F37;
+}
+
+.card-text {
+    color: #5A5F37;
+}
+
+#hoteles {
+    background-color: #FFFAE1;
+    padding: 10px;
+}
+

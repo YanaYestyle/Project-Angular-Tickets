@@ -187,19 +187,6 @@ export class MainPartComponent implements OnInit {
     } else if(!this.formValuePassenger){
       this.warningPassengerForButton = "Enter the number of passengers, no more than 5";
     }  
-      
-    /*else if(this.selectedOption ||this.selectedOption1 || this.dateFromForm || this.formValuePassenger){
-      this.warningCityDeparture = "";
-      this.warningCityArrival = "";
-      this.warningDate2 = "";
-      this.warningPassengerForButton = "";
-    } else if(this.selectedOption1){
-      this.warningCityArrival = "";
-    } else if(this.dateFromForm){
-      this.warningDate2 = "";
-    } else if(this.formValuePassenger){
-      this.warningPassengerForButton = "";
-    }*/
   }
 
  
