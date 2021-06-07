@@ -1,6 +1,10 @@
-# Bilety
+# Tickets
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.8.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.8. Also used were WEBPACK version 4.29.6, WEBPACK-CLI version 3.3.0 + npm.
+
+# Project Description
+
+The project provides for the possibility of searching for a ticket, choosing seats on the plane (it was implemented in 3 ways. The most effective using SVG), also shows the current location, the weather in the location and for the selected flight direction. The ability to convert the cost of the flight to " $ " and "PLN".
 
 ## Development server
 
@@ -30,3 +34,17 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 login: mathew@gmail.com
 password: mathew1234
+
+## Tools used
+
+### API:
+
+1. https://ip-api.com/
+2. https://www.weatherapi.com/
+3. https://www.data.fixer.io/
+
+### Libraries:
+
+Bootstrap 4.5.6
+
+
