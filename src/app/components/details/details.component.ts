@@ -7597,14 +7597,14 @@ export class DetailsComponent implements OnInit {
   }
 
   result(){
-    if(this.passengerSum === 1){
+    if(this.passengerSum === "1"){
       this.passenger2 = "";
       this.passenger3 = "";
       this.passenger4 = "";
       this.passenger5 = "";
       this.datasData.sharedSeatOnTheDisplay = this.seatOnTheDisplay;
       this.router.navigate(["/result"]);
-    } else if(this.passengerSum === 2){
+    } else if(this.passengerSum === "2"){
       this.passenger2 = "Select a seat for the second passenger";
       this.passenger3 = "";
       this.passenger4 = "";
@@ -7612,7 +7612,7 @@ export class DetailsComponent implements OnInit {
       this.passengerSum = this.passengerSum - 1;
       this.datasData.sharedSeatOnTheDisplay1 = this.seatOnTheDisplay;
       this.router.navigate(["/details"]);
-    } else if(this.passengerSum === 3){
+    } else if(this.passengerSum === "3"){
       this.passenger2 = "";
       this.passenger3 = "Select a seat for the third passenger";
       this.passenger4 = "";
@@ -7620,7 +7620,7 @@ export class DetailsComponent implements OnInit {
       this.datasData.sharedSeatOnTheDisplay2 = this.seatOnTheDisplay;
       this.passengerSum = this.passengerSum - 1;
       this.router.navigate(["/details"]);
-    } else if(this.passengerSum === 4){
+    } else if(this.passengerSum === "4"){
       this.passenger2 = "";
       this.passenger3 = "";
       this.passenger4 = "Select a seat for the fourth passenger";
@@ -7628,7 +7628,7 @@ export class DetailsComponent implements OnInit {
       this.datasData.sharedSeatOnTheDisplay3 = this.seatOnTheDisplay;
       this.passengerSum = this.passengerSum - 1;
       this.router.navigate(["/details"]);
-    } else if(this.passengerSum === 5){
+    } else if(this.passengerSum === "5"){
       this.passenger2 = "";
       this.passenger3 = "";
       this.passenger4 = "";

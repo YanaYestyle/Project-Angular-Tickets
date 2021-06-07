@@ -10,6 +10,7 @@ import { DatasService } from '../../services/datas.service';
   styleUrls: ['./main-part.component.css']
 })
 export class MainPartComponent implements OnInit {
+ 
 
   
   constructor(private router:Router, private datasData:DatasService) {}
@@ -189,6 +190,7 @@ export class MainPartComponent implements OnInit {
     }  
   }
 
+  
  
   
 }
